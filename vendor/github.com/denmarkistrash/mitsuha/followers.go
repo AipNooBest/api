@@ -3,7 +3,7 @@ package mitsuha
 import (
 	"database/sql"
 	"strconv"
-	"github.com/RealistikOsu/api/common"
+	"github.com/AipNooBest/api/common"
 )
 
 type userData1 struct {

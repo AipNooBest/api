@@ -7,9 +7,9 @@ import (
 	"syscall"
 
 	"zxq.co/ripple/agplwarning"
-	"github.com/RealistikOsu/api/app"
-	"github.com/RealistikOsu/api/beatmapget"
-	"github.com/RealistikOsu/api/common"
+	"github.com/AipNooBest/api/app"
+	"github.com/AipNooBest/api/beatmapget"
+	"github.com/AipNooBest/api/common"
 	"zxq.co/ripple/schiavolib"
 	// Golint pls dont break balls
 	_ "github.com/go-sql-driver/mysql"
@@ -31,12 +31,12 @@ func init() {
 var db *sqlx.DB
 
 func main() {
-	err := agplwarning.Warn("ripple", "The RealistikOsu API")
+	err := agplwarning.Warn("ripple", "The Debiki API")
 	if err != nil {
 		fmt.Println(err)
 	}
 
-	fmt.Print("The RealistikOsu API! Because how much more can I break?")
+	fmt.Print("The Debiki API! Because how much more can I break?")
 	if Version != "" {
 		fmt.Print("; git commit hash: ", Version)
 	}
